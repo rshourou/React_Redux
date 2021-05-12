@@ -1,0 +1,11 @@
+.Component{
+    margin-left:25% ;
+    margin-top: 0 ;
+
+}
+@media(min-width:500px){
+    .Component{
+        margin-top: 200px ;
+        margin-left: 0 ;
+    }
+}
