@@ -42,8 +42,8 @@ const reducer=(state=initialState, action)=>{
                 .map(igKey=>state.ingredients[igKey])
                 .reduce((sum,el)=>{return sum+el},0)
                 return {...state, purchasable : sum>0}            
-                      
+        default : return state              
     }
-    return state
+    
 }
 export default reducer

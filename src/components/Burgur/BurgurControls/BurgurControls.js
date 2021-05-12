@@ -1,14 +1,6 @@
 import classes from './BurgurControls.module.css'
 import BuildControl from './BuildControl/BuildControl' 
 
-const Controls=[
-    {label:"Bacon", type:'bacon'},
-    {label:"Cheese", type:'cheese'},
-    {label:"Meat", type:'meat'},
-    {label:"Salad", type:'salad'},
-    
-];
-
 const burgurControls=props=>{
     // let ctrls= Object.keys(props.ingrediants).map(igKey=>{
     //     return <BuildControl label={igKey} />

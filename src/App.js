@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react'
 import Layout from './components/Layout/Layout'
 import BurgurBuilder from './containers/burgurBuilder/burgurBuilder'
-import {BrowserRouter, Route, Switch, withRouter} from 'react-router-dom'
+import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import Checkout from './containers/Checkout/Checkout'
 import Orders from './containers/Orders/Orders'
 import Auth from './containers/Auth/Auth'

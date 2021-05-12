@@ -23,8 +23,10 @@ const reducer =(state=initialState, action)=>{
         
         case actionTypes.FETCH_ORDERS_FAILED:
             return {...state, loading:false, error:action.error}
+
+        default : return state
     }
-    return state
+    
 }
 
 export default reducer

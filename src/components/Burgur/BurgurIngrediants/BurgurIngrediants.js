@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from './BurgurIngrediants.module.css'
-import PropTypes from 'props-type'
+
 
 const burgurIngrediants=props=>{
     let ingrediants=null;

@@ -7,7 +7,7 @@ import Spinner from '../../../components/UI/Spinner/Spinner'
 import Input from '../../../components/UI/Input/Input'
 import {connect} from 'react-redux'
 import * as actions from '../../../Store/actions/index'
-import { act } from 'react-dom/test-utils'
+
 
 class ContactData extends Component {
 

@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+
 import './Order.css'
 
 const Order=props=>{

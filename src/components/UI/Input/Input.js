@@ -20,7 +20,7 @@ const input=props=>{
         
         inputElement=<select className={inputClasses.join(' ')} value={props.value} onChange={props.changed} >
                         {props.elemConfig.options.map(option=>{
-                            <option value={option.value}>{option.displayValue} </option>
+                            return <option value={option.value}>{option.displayValue} </option>
                         })}
                     </select>
             break;
