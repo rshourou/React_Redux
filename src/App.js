@@ -6,7 +6,6 @@ import Checkout from './containers/Checkout/Checkout'
 import Orders from './containers/Orders/Orders'
 import Auth from './containers/Auth/Auth'
 import Profile from './containers/Profile/ProfileForm'
-import AuthForm from './containers/Auth/AuthForm'
 import Logout from './containers/Auth/Logout'
 import { connect } from 'react-redux';
 import * as actions from './Store/actions/index'
